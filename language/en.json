@@ -1,0 +1,15 @@
+
+{
+	
+	"contactTitle" : "Contact form",
+	"contactInfo" : "In order to help us improve weeZeel we need you to report us errors or give us feedback. If you find any error while using weeZeel or you have an idea please tell us.",
+	"contactSubject" : "Subject",
+	"contactDescription" : "Description",
+	"contactSend" : "Send",
+	"bannerTitle" : "Message sent",
+	"bannerDescription" : "We have received your message, we'll get in touch with you soon.",
+	"errorTotal" : "Please introduce a subject and description",
+	"errorSubject" : "Please introduce a subject",
+	"errorDescription" : "Please introduce a description"
+
+}

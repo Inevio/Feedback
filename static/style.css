@@ -1,0 +1,127 @@
+
+.wz-app-9{
+    
+    background: #FFF;
+    
+}
+
+.wz-app-9 .contact-title{
+
+    float: left;
+    font-size: 17px;
+    color: #646464;
+    margin: 16px 40px;
+
+}
+
+.wz-app-9 .contact-menu{
+
+    float: right;
+    padding: 18px 23px 15px;
+
+}
+
+.wz-app-9 .wz-win-minimize{
+
+    margin-right: 23px;
+
+}
+
+.wz-app-9 .contact-content{
+
+    float: left;
+    width: 485px;
+    height: 430px;
+    padding: 35px 40px;
+
+}
+
+.wz-app-9 .contact-text{
+
+    float: left;
+    width: 485px;
+    font-size: 17px;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 15px;
+
+}
+
+.wz-app-9 .content-subject-text{
+
+    float: left;
+    width: 465px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    color: #5D5D5D;
+    font-size: 14px;
+    padding: 3px 10px;
+    margin-bottom: 15px;
+
+}
+
+.wz-app-9 .content-subject-text:focus{
+
+    border: 1px solid #50BDFF;
+
+}
+
+.wz-app-9 .content-description-text{
+
+    float: left;
+    width: 455px;
+    height: 150px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    color: #5D5D5D;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+
+}
+
+.wz-app-9 .content-description-text:focus{
+
+    border: 1px solid #50BDFF;
+
+}
+
+.wz-app-9 .content-button{
+
+    float: right;
+    border-radius: 2px;
+    padding: 10px 25px;
+    margin-top: 15px;
+    text-align: center;
+    box-shadow: 0 1px 1px #AAA;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+    
+    border-top: 1px solid #50BDFF;
+    
+    background-image: -moz-linear-gradient(50% 0% -90deg,rgb(60,181,255) 0%,rgb(44,153,255) 100%); 
+    background-image: -webkit-linear-gradient(-90deg,rgb(60,181,255) 0%,rgb(44,153,255) 100%);
+    background-image: -o-linear-gradient(-90deg,rgb(60,181,255) 0%,rgb(44,153,255) 100%);
+    background-image: linear-gradient(0deg,rgb(44,153,255) 0%,rgb(60,181,255) 100%);
+
+}
+
+.wz-app-9 .content-button:hover{
+
+    border-top: 1px solid #60CBFF;
+    
+    background-image: -moz-linear-gradient(50% 0% -90deg,rgb(77,197,255) 0%,rgb(56,175,255) 100%); 
+    background-image: -webkit-linear-gradient(-90deg,rgb(77,197,255) 0%,rgb(56,175,255) 100%);
+    background-image: -o-linear-gradient(-90deg,rgb(77,197,255) 0%,rgb(56,175,255) 100%);
+    background-image: linear-gradient(0deg,rgb(56,175,255) 0%,rgb(77,197,255) 100%);
+
+}
+
+.wz-app-9 .contact-info{
+
+    margin-bottom: 25px;
+
+}
