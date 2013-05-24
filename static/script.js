@@ -7,13 +7,23 @@ wz.app.addScript( 9, 'common', function( win, app, lang, params ){
 
 			if( $( '.content-subject-text', win ).val() && $( '.content-description-text', win ).val() ){
 
-				wz.banner()
-					.title( lang.bannerTitle )
-					.text( lang.bannerDescription )
-					.image( 'https://static.weezeel.com/app/9/icon.png' )
-					.render();
+				wz.contact( $( '.content-subject-text', win ).val(), $( '.content-description-text', win ).val(), function( error ){
 
-				wz.app.closeWindow( win );
+					if( error ){
+						alert( error );
+					}else{
+
+						wz.banner()
+							.title( lang.bannerTitle )
+							.text( lang.bannerDescription )
+							.image( 'https://static.weezeel.com/app/9/icon.png' )
+							.render();
+
+						wz.app.closeWindow( win );
+
+					}
+
+				});
 
 			}else{
 
