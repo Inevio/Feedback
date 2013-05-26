@@ -50,12 +50,12 @@
 .wz-app-9 .content-subject-text{
 
     float: left;
-    width: 465px;
+    width: 455px;
     border: 1px solid #DDD;
     border-radius: 3px;
     color: #5D5D5D;
     font-size: 14px;
-    padding: 3px 10px;
+    padding: 3px 15px;
     margin-bottom: 15px;
 
 }
@@ -71,6 +71,7 @@
     float: left;
     width: 455px;
     height: 150px;
+    line-height: 16px;
     border: 1px solid #DDD;
     border-radius: 3px;
     color: #5D5D5D;
