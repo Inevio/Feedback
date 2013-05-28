@@ -39,11 +39,11 @@ wz.app.addScript( 9, 'common', function( win, app, lang, params ){
 
 		})
 
-		.key( 'enter', '.content-description-text', function(){
+		/*.key( 'enter', '.content-description-text', function(){
 
 			$( '.content-button', win ).click();
 
-		});
+		})*/;
 
 	$( '.contact-title', win ).text( lang.contactTitle );
 	$( '.contact-info', win ).text( lang.contactInfo );
