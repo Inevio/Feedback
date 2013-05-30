@@ -10,20 +10,15 @@
     float: left;
     font-size: 17px;
     color: #646464;
-    margin: 16px 40px;
+    margin-top: 18px;
+    margin-left: 40px;
 
 }
 
 .wz-app-9 .contact-menu{
 
     float: right;
-    padding: 18px 23px 15px;
-
-}
-
-.wz-app-9 .wz-win-minimize{
-
-    margin-right: 23px;
+    padding: 13px 20px 10px;
 
 }
 
