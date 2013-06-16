@@ -1,11 +1,11 @@
 
-.wz-app-9{
+.wz-win{
     
     background: #FFF;
     
 }
 
-.wz-app-9 .contact-title{
+.contact-title{
 
     float: left;
     font-size: 17px;
@@ -15,14 +15,14 @@
 
 }
 
-.wz-app-9 .contact-menu{
+.contact-menu{
 
     float: right;
     padding: 13px 20px 10px;
 
 }
 
-.wz-app-9 .contact-content{
+.contact-content{
 
     float: left;
     width: 485px;
@@ -31,7 +31,7 @@
 
 }
 
-.wz-app-9 .contact-text{
+.contact-text{
 
     float: left;
     width: 485px;
@@ -42,7 +42,7 @@
 
 }
 
-.wz-app-9 .content-subject-text{
+.content-subject-text{
 
     float: left;
     width: 455px;
@@ -55,13 +55,13 @@
 
 }
 
-.wz-app-9 .content-subject-text:focus{
+.content-subject-text:focus{
 
     border: 1px solid #50BDFF;
 
 }
 
-.wz-app-9 .content-description-text{
+.content-description-text{
 
     float: left;
     width: 455px;
@@ -76,13 +76,13 @@
 
 }
 
-.wz-app-9 .content-description-text:focus{
+.content-description-text:focus{
 
     border: 1px solid #50BDFF;
 
 }
 
-.wz-app-9 .content-button{
+.content-button{
 
     float: right;
     border-radius: 2px;
@@ -105,7 +105,7 @@
 
 }
 
-.wz-app-9 .content-button:hover{
+.content-button:hover{
 
     border-top: 1px solid #60CBFF;
     
@@ -116,7 +116,7 @@
 
 }
 
-.wz-app-9 .contact-info{
+.contact-info{
 
     margin-bottom: 25px;
 
