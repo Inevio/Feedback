@@ -10,7 +10,7 @@ wz.app.addScript( 9, 'common', function( win, app, lang, params ){
 				wz.contact( $( '.content-subject-text', win ).val(), $( '.content-description-text', win ).val(), function( error ){
 
 					if( error ){
-						alert( error );
+						alert( error, null, win.data().win );
 					}else{
 
 						wz.banner()
@@ -28,11 +28,11 @@ wz.app.addScript( 9, 'common', function( win, app, lang, params ){
 			}else{
 
 				if( !$( '.content-subject-text', win ).val() && !$( '.content-description-text', win ).val() ){
-					alert( lang.errorTotal );
+					alert( lang.errorTotal, null, win.data().win );
 				}else if( !$( '.content-subject-text', win ).val() ){
-					alert( lang.errorSubject );
+					alert( lang.errorSubject, null, win.data().win );
 				}else{
-					alert( lang.errorDescription );
+					alert( lang.errorDescription, null, win.data().win );
 				}
 
 			}
