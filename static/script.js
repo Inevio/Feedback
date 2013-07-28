@@ -1,4 +1,6 @@
-    
+
+console.log( window, document );
+
 	$(win)
 
 		.on( 'click', '.content-button', function(){
