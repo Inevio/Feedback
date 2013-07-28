@@ -1,5 +1,3 @@
-
-wz.app.addScript( 9, 'common', function( win, app, lang, params ){
     
 	$(win)
 
@@ -50,5 +48,3 @@ wz.app.addScript( 9, 'common', function( win, app, lang, params ){
 	$( '.contact-subject', win ).text( lang.contactSubject + ':' );
 	$( '.contact-description', win ).text( lang.contactDescription + ':' );
 	$( '.content-button', win ).text( lang.contactSend );
-    
-});
