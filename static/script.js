@@ -16,7 +16,7 @@ console.log( window, document );
 						wz.banner()
 							.title( lang.bannerTitle )
 							.text( lang.bannerDescription )
-							.image( 'https://static.weezeel.com/app/9/icon.png' )
+							.icon( 'https://static.weezeel.com/app/9/icon.png' )
 							.render();
 
 						wz.app.closeWindow( win );
