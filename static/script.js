@@ -8,20 +8,18 @@
 				wz.contact( $( '.content-subject-text', win ).val(), $( '.content-description-text', win ).val(), function( error ){
 
 					if( error ){
-						alert( error, null, win.data().win );
-					}else{
-
-						wz.banner()
-							.title( lang.bannerTitle )
-							.text( lang.bannerDescription )
-							.icon( 'https://static.weezeel.com/app/9/icon.png' )
-							.render();
-
-						wz.app.closeWindow( win );
-
+						console.log( error );
 					}
 
 				});
+
+				wz.banner()
+					.title( lang.bannerTitle )
+					.text( lang.bannerDescription )
+					.icon( 'https://static.weezeel.com/app/9/icon.png' )
+					.render();
+
+				wz.app.closeWindow( win );
 
 			}else{
 
