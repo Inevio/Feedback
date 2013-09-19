@@ -8,7 +8,7 @@
 	"contactSend" : "Enviar",
 	"bannerTitle" : "Mensaje enviado",
 	"bannerDescription" : "Hemos recibido tu mensaje, nos pondremos en contacto contigo enseguida.",
-	"errorTotal" : "Por favor introduce un asunto y la descripción",
+	"errorTotal" : "Por favor introduce un asunto y descripción",
 	"errorSubject" : "Por favor introduce un asunto",
 	"errorDescription" : "Por favor introduce una descripción"
 	

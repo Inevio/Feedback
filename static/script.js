@@ -1,7 +1,5 @@
 
-console.log( window, document );
-
-	$(win)
+	$( win )
 
 		.on( 'click', '.content-button', function(){
 
@@ -37,16 +35,10 @@ console.log( window, document );
 
 			}
 
-		})
-
-		/*.key( 'enter', '.content-description-text', function(){
-
-			$( '.content-button', win ).click();
-
-		})*/;
+		});
 
 	$( '.contact-title', win ).text( lang.contactTitle );
 	$( '.contact-info', win ).text( lang.contactInfo );
 	$( '.contact-subject', win ).text( lang.contactSubject + ':' );
 	$( '.contact-description', win ).text( lang.contactDescription + ':' );
-	$( '.content-button', win ).text( lang.contactSend );
+	$( '.content-button span', win ).text( lang.contactSend );
