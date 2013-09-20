@@ -1,7 +1,14 @@
 
 {
 
-    "name"    : "Contacto",
+    "name"    : {
+
+        "main" : "Feedback",
+        "en"   : "Feedback",
+        "es"   : "Reportar"
+
+    },
+
     "version" : "1.0",
     "state"   : "beta",
 
