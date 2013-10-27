@@ -1,4 +1,6 @@
 
+    var win = $( this );
+    
     $( win )
 
     .on( 'click', '.content-button', function(){
