@@ -7,7 +7,7 @@
 
         if( $( '.content-subject-text', win ).val() && $( '.content-description-text', win ).val() ){
 
-            wz.contact( $( '.content-subject-text', win ).val(), $( '.content-description-text', win ).val(), function( error ){
+            wz.feedback( $( '.content-subject-text', win ).val(), $( '.content-description-text', win ).val(), function( error ){
 
                 if( error ){
                     console.log( error );
