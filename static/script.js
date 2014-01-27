@@ -1,9 +1,7 @@
 
     var win = $( this );
     
-    $( win )
-
-    .on( 'click', '.content-button', function(){
+    win.on( 'click', '.content-button', function(){
 
         if( $( '.content-subject-text', win ).val() && $( '.content-description-text', win ).val() ){
 
@@ -21,7 +19,7 @@
                 .icon( 'https://static.weezeel.com/app/9/icon.png' )
                 .render();
 
-            wz.app.closeWindow( win );
+            wz.app.removeView( win );
 
         }else{
 
