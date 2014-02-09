@@ -19,7 +19,7 @@
                 .icon( 'https://static.weezeel.com/app/9/icon.png' )
                 .render();
 
-            wz.app.removeView( win );
+            wz.view.remove();
 
         }else{
 
