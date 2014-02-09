@@ -1,11 +1,11 @@
 
-.wz-win{
+.wz-view{
     
     background: #F6F6F6;
     
 }
 
-.wz-win-menu{
+.wz-view-menu{
     height: 39px;
     box-shadow: 0 1px rgba( 255, 255, 255, 0.1 ) inset;
     background-image: -webkit-linear-gradient(bottom, #d6d6d6, #fff);
@@ -14,7 +14,7 @@
     background-image: linear-gradient(to top, #d6d6d6, #fff);
 }
 
-.wz-win-menu-group:last-child{
+.wz-view-menu-group:last-child{
     padding: 10px 20px 6px;
 }
 
