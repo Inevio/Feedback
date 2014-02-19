@@ -24,11 +24,11 @@
         }else{
 
             if( !$( '.content-subject-text', win ).val() && !$( '.content-description-text', win ).val() ){
-                alert( lang.errorTotal, null, win.data().win );
+                alert( lang.errorTotal );
             }else if( !$( '.content-subject-text', win ).val() ){
-                alert( lang.errorSubject, null, win.data().win );
+                alert( lang.errorSubject );
             }else{
-                alert( lang.errorDescription, null, win.data().win );
+                alert( lang.errorDescription );
             }
 
         }
