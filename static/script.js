@@ -16,7 +16,7 @@
             wz.banner()
                 .title( lang.bannerTitle )
                 .text( lang.bannerDescription )
-                .icon( 'https://static.weezeel.com/app/9/icon.png' )
+                .icon( 'https://static.inevio.com/app/9/icon.png' )
                 .render();
 
             wz.app.closeWindow( win );
