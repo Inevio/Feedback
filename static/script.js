@@ -14,9 +14,9 @@
             });
 
             wz.banner()
-                .title( lang.bannerTitle )
-                .text( lang.bannerDescription )
-                .icon( 'https://static.inevio.com/app/9/icon.png' )
+                .setTitle( lang.bannerTitle )
+                .setText( lang.bannerDescription )
+                .setIcon( 'https://static.inevio.com/app/9/icon.png' )
                 .render();
 
             wz.view.remove();
