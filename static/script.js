@@ -1,11 +1,13 @@
 
     var win = $( this );
+
+    $( '.content-subject-text' ).focus();
     
     win.on( 'click', '.content-button', function(){
 
-        if( $( '.content-subject-text', win ).val() && $( '.content-description-text', win ).val() ){
+        if( $( '.content-subject-text' ).val() && $( '.content-description-text' ).val() ){
 
-            wz.feedback( $( '.content-subject-text', win ).val(), $( '.content-description-text', win ).val(), function( error ){
+            wz.feedback( $( '.content-subject-text' ).val(), $( '.content-description-text' ).val(), function( error ){
 
                 if( error ){
                     console.log( error );
@@ -23,9 +25,9 @@
 
         }else{
 
-            if( !$( '.content-subject-text', win ).val() && !$( '.content-description-text', win ).val() ){
+            if( !$( '.content-subject-text' ).val() && !$( '.content-description-text' ).val() ){
                 alert( lang.errorTotal );
-            }else if( !$( '.content-subject-text', win ).val() ){
+            }else if( !$( '.content-subject-text' ).val() ){
                 alert( lang.errorSubject );
             }else{
                 alert( lang.errorDescription );
@@ -35,8 +37,8 @@
 
     });
 
-    $( '.contact-title', win ).text( lang.contactTitle );
-    $( '.contact-info', win ).text( lang.contactInfo );
-    $( '.contact-subject', win ).text( lang.contactSubject + ':' );
-    $( '.contact-description', win ).text( lang.contactDescription + ':' );
-    $( '.content-button span', win ).text( lang.contactSend );
+    $( '.contact-title' ).text( lang.contactTitle );
+    $( '.contact-info' ).text( lang.contactInfo );
+    $( '.contact-subject' ).text( lang.contactSubject + ':' );
+    $( '.contact-description' ).text( lang.contactDescription + ':' );
+    $( '.content-button span' ).text( lang.contactSend );
