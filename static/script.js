@@ -2,12 +2,12 @@
     var win = $( this );
 
     $( '.content-subject-text' ).focus();
-    
+
     win.on( 'click', '.content-button', function(){
 
         if( $( '.content-subject-text' ).val() && $( '.content-description-text' ).val() ){
 
-            wz.feedback( $( '.content-subject-text' ).val(), $( '.content-description-text' ).val(), function( error ){
+            api.feedback( $( '.content-subject-text' ).val(), $( '.content-description-text' ).val(), function( error ){
 
                 if( error ){
                     console.log( error );
@@ -15,13 +15,13 @@
 
             });
 
-            wz.banner()
+            api.banner()
                 .setTitle( lang.bannerTitle )
                 .setText( lang.bannerDescription )
                 .setIcon( 'https://static.inevio.com/app/9/icon.png' )
                 .render();
 
-            wz.view.remove();
+            api.view.remove();
 
         }else{
 
