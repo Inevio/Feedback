@@ -3,9 +3,9 @@
 
     "name" : {
 
-        "main" : "Feedback",
-        "en"   : "Feedback",
-        "es"   : "Reportar"
+        "main" : "Suggestions",
+        "en"   : "Suggestions",
+        "es"   : "Sugerencias"
 
     },
 
@@ -37,7 +37,7 @@
             "view" : {
 
                 "main" : {
-                    
+
                     "template" : "main.html",
 
                     "maxizable" : false,
