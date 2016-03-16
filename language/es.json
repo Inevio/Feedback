@@ -3,13 +3,14 @@
 
     "contactTitle" : "Buzón de sugerencias",
     "contactInfo" : "Para poder ayudarnos a mejorar Inevio necesitamos que nos reportes errores o nos des sugerencias. Por favor, haznos llegar cualquier error que encuentres y si tienes cualquier idea dínosla.",
-    "contactSubject" : "Asunto",
-    "contactDescription" : "Descripción",
+    "contactSubject" : "ASUNTO",
+    "contactDescription" : "DESCRIPCIÓN",
     "contactSend" : "Enviar",
     "bannerTitle" : "Mensaje enviado",
     "bannerDescription" : "Hemos recibido tu mensaje, nos pondremos en contacto contigo enseguida.",
     "errorTotal" : "Por favor, introduce un asunto y descripción",
     "errorSubject" : "Por favor, introduce un asunto",
-    "errorDescription" : "Por favor, introduce una descripción"
+    "errorDescription" : "Por favor, introduce una descripción",
+    "typehere"  : "Escribe aquí..."
 
 }

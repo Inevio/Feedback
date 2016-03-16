@@ -3,13 +3,14 @@
 
     "contactTitle" : "Suggestion box",
     "contactInfo" : "In order to help us improve Inevio we need you to report us errors or give us feedback. If you find any error while using Inevio or you have an idea please tell us.",
-    "contactSubject" : "Subject",
-    "contactDescription" : "Description",
+    "contactSubject" : "SUBJECT",
+    "contactDescription" : "DESCRIPTION",
     "contactSend" : "Send",
     "bannerTitle" : "Message sent",
     "bannerDescription" : "We have received your message, we'll get in touch with you soon.",
     "errorTotal" : "Please introduce a subject and description",
     "errorSubject" : "Please introduce a subject",
-    "errorDescription" : "Please introduce a description"
+    "errorDescription" : "Please introduce a description",
+    "typehere"  : "Type here..."
 
 }
