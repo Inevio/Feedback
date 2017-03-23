@@ -3,8 +3,8 @@
 
     "name" : {
 
-        "main" : "Suggestions",
-        "en"   : "Suggestions",
+        "main" : "Feedback",
+        "en"   : "Feedback",
         "es"   : "Sugerencias"
 
     },
