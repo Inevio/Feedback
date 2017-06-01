@@ -3,8 +3,8 @@
 
     "contactTitle" : "Buzón de sugerencias",
     "contactInfo" : "Para poder ayudarnos a mejorar horbito necesitamos que nos reportes errores o nos des sugerencias. Por favor, haznos llegar cualquier error que encuentres y si tienes cualquier idea dínosla.",
-    "contactSubject" : "ASUNTO",
-    "contactDescription" : "DESCRIPCIÓN",
+    "contactSubject" : "Asunto",
+    "contactDescription" : "Descripción",
     "contactSend" : "Enviar",
     "bannerTitle" : "Mensaje enviado",
     "bannerDescription" : "Hemos recibido tu mensaje, nos pondremos en contacto contigo enseguida.",
@@ -12,5 +12,6 @@
     "errorSubject" : "Por favor, introduce un asunto",
     "errorDescription" : "Por favor, introduce una descripción",
     "typehere"  : "Escribe aquí..."
+    
 
 }

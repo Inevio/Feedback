@@ -19,7 +19,7 @@
 }
 
 .feedback .ui-content {
-  background-color: #f7f8fa;
+  background-color: #fff;
 }
 
 .dark.feedback .ui-content {
@@ -37,7 +37,7 @@
   float: left;
   width: 100%;
   font-size: 15px;
-  color: #545f65;
+  color: #252525;
   text-align: justify;
   margin-bottom: 15px;
   line-height: 24px;
@@ -48,9 +48,10 @@
 }
 
 .contact-text.contact-subject{
-  font-size: 11px;
-  color: #868c8e;
+  font-size: 15px;
+  color: #252525;
   margin-bottom: 3px;
+  font-weight: 900;
 }
 
 .content-subject-text{
@@ -62,9 +63,10 @@
 }
 
 .contact-text.contact-description{
-  font-size: 11px;
-  color: #868c8e;
+  font-size: 15px;
+  color: #252525;
   margin-bottom: 3px;
+  font-weight: 900;
 }
 
 .content-description-text{
@@ -72,12 +74,14 @@
   width: ~'calc(100% - 32px)';
   height: 146px;
   line-height: 16px;
-  border: 1px solid #DCDCDC;
-  border-radius: 4px;
-  color: #5D5D5D;
-  font-size: 13px;
+  border: 2px solid #f0f0f0;
+  border-radius: 6px;
+  color: #252525;
+  font-size: 15px;
   padding: 14px 15px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+  background-color: #f0f0f0;
+  font-weight: bold;
 }
 
 .dark .content-description-text{
@@ -87,7 +91,7 @@
 }
 
 .content-description-text:focus{
-  border: 1px solid #60b25e;
+  border: 2px solid #0071f6;
 }
 
 .dark .content-description-text:focus{
@@ -99,31 +103,47 @@
 }
 
 textarea::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-  color: #889399 !important;
+  color: #717171 !important;
+  font-size: 15px;
+  font-weight: bold;
 }
 textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   opacity:  1;
-  color: #889399 !important;
+  color: #717171 !important;
+  font-size: 15px;
+  font-weight: bold;
 }
 textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
   opacity:  1;
-  color: #889399 !important;
+  color: #717171 !important;
+  font-size: 15px;
+  font-weight: bold;
 }
 textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #889399 !important;
+  color: #717171 !important;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-  color: #889399 !important;
+  color: #717171 !important;
+  font-size: 15px;
+  font-weight: bold;
 }
 input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   opacity:  1;
-  color: #889399 !important;
+  color: #717171 !important;
+  font-size: 15px;
+  font-weight: bold;
 }
 input::-moz-placeholder { /* Mozilla Firefox 19+ */
   opacity:  1;
-  color: #889399 !important;
+  color: #717171 !important;
+  font-size: 15px;
+  font-weight: bold;
 }
 input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #889399 !important;
+  color: #717171 !important;
+  font-size: 15px;
+  font-weight: bold;
 }
